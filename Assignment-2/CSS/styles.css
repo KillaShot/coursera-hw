@@ -65,7 +65,7 @@ section {
 	margin-left: 70%;
 	font-family: yama,sans-serif;
 	font-weight: bold;
-	font-size: 140%;
+	font-size: 120%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
@@ -79,7 +79,7 @@ section {
 	margin-left: 70%;
 	font-family: yama,sans-serif;
 	font-weight: bold;
-	font-size: 140%;
+	font-size: 120%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
@@ -93,11 +93,11 @@ section {
 	margin-left: 70%;
 	font-family: yama,sans-serif;
 	font-weight: bold;
-	font-size: 140%;
+	font-size: 120%;
 	margin-bottom: 0;
 	margin-top: 0;
+  	padding: 5px;
 	background-color: #ff5050;
-	padding: 5px;
 }
 
 .row {
