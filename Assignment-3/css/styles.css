@@ -17,7 +17,12 @@
     src: url('../fonts/bonzai.ttf') format('truetype');
 }
 
-h1 {
+@font-face {
+    font-family: cute;
+    src: url('../fonts/cutel.ttf') format('truetype');
+}
+
+.menu-name {
   font-size:4em;
 	font-family: shanghai, sans-serif;
 	color: #000000;
@@ -28,6 +33,13 @@ body {
 	background: linear-gradient(to bottom, #ff9980 0%,	 #ff8566 25%,#ff704d 50%,#ff5c33 75%,#ff471a 100%);;
   background-repeat: no-repeat;
   background-attachment: fixed
+}
+
+#logo-img {
+  background: url('../pics/yy2.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 5px 25px 5px 0;
 }
 
 p {
@@ -113,44 +125,63 @@ section {
   margin-top: 10px;
 }
 
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #FFFFFF;
+.navbar-default .navbar-brand {
+	margin:10px;
+	font-family: cute;
+  font-size: 2.0em;
+	border: outset 3px #ffd700;
+	width: auto;
+	height: auto;
 }
 
 #header-nav {
-  border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
+  border: none;
+  background: linear-gradient(to bottom, #668cff 0%,#8080ff 25%,#d966ff 50%,#ff3385 75%,#ff8080 100%);
+	border-bottom: solid 1px #ffd700;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #ffd700;
+	box-shadow: 1px 1px 2px black;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
-}
-
-.nav-header {
-  background-color: #FFFFFF;
+  margin-top: -50px;
 }
 
 .nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
+	margin: 0px;
+  color: #ffd700;
+  font-size: 2.0em;
 }
 
 #nav-list {
-  color: white;
+  color: #ffd700;
 }
 
 hr {
-  border-color: white;
+  border-color: #ffd700;
 }
-
-.item {
-  color: white;
-  font-size: 1.2em;
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color:#ffd700;
+}
+.item1 {
+  color: #ff661a;
+  font-size: 1.5em;
+	text-shadow:1px 1px 2px black, 0 0 1em gold;
+}
+.item2 {
+  color: #990000;
+  font-size: 1.5em;
+		text-shadow:1px 1px 2px black, 0 0 1em gold;
+}
+.item3 {
+  color: #ff5050;
+  font-size: 1.5em;
+		text-shadow:1px 1px 2px black, 0 0 1em gold;
+}
+@media (max-width: 767px) {
+	.nav-brand {
+  font-size: 10.0vw;
+}
 }
