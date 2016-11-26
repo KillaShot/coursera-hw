@@ -4,17 +4,17 @@
 
 @font-face {
     font-family: yama;
-    src: url(/fonts/yamamoto.ttf);
+    src: url(fonts/yamamoto.ttf);
 }
 
 @font-face {
     font-family: shanghai;
-    src: url(/fonts/shanghai.ttf);
+    src: url(../fonts/shanghai.ttf);
 }
 
 @font-face {
     font-family: bonzai;
-    src: url(/fonts/bonzai.ttf);
+    src: url(/../fonts/bonzai.ttf);
 }
 
 h1 {
